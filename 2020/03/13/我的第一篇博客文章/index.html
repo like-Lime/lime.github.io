@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>我的第一篇博客文章 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="第一章 Ajax概念Ajax对象属性 responsrText ______ 以文本形式获取响应值    responseXML：            如果响应主体内容是：text&#x2F;xml 或 app lication &#x2F; xml，            则以XML形式获取响应值，并且解析成DOM对象返回    status ：              返回当前请求的HTTP状态码">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我的第一篇博客文章">
+<meta property="og:url" content="http://yoursite.com/2020/03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="第一章 Ajax概念Ajax对象属性 responsrText ______ 以文本形式获取响应值    responseXML：            如果响应主体内容是：text&#x2F;xml 或 app lication &#x2F; xml，            则以XML形式获取响应值，并且解析成DOM对象返回    status ：              返回当前请求的HTTP状态码">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-03-13T05:03:52.000Z">
+<meta property="article:modified_time" content="2020-03-13T05:07:44.687Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-我的第一篇博客文章" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" class="article-date">
+  <time datetime="2020-03-13T05:03:52.000Z" itemprop="datePublished">2020-03-13</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      我的第一篇博客文章
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>第一章 Ajax概念<br>Ajax对象属性</p>
+<pre><code>responsrText ______ 以文本形式获取响应值
+
+  responseXML：
+           如果响应主体内容是：text/xml 或 app lication / xml，
+           则以XML形式获取响应值，并且解析成DOM对象返回
+
+  status ： 
+            返回当前请求的HTTP状态码
+          （200；服务器成为返回文件
+             404 指定的URL在服务器上找不到 ）
+
+  statusText：
+返回当前请求的HTTP状态的说明
+
+  readyState
+           返回请回的当前状态：
+           - 0  Ajax对象被创建，但尚未调用 open（）方法
+           - 1  open（）方法已经被调用。
+           - 2  send（）方法已经被调用，并且头部和状态已经可获得
+           - 3  响应体部分正在被接受，response Text 属性已经包含部分数据。
+           - 4  请求操作已经完成，这意味着数据传输已经彻底完成或失败</code></pre><p> 创建Ajax<br>                    var oAjax = new.XMLHttpRequest (  )</p>
+<pre><code>open方法请求</code></pre><p>同步和异步</p>
+<pre><code>同步（阻塞）
+- 当一件事没有做完时，它会阻塞后面的事情的执行。也就是前面的代码会影响后面的代码执行
+异步（非阻塞）
+-  当一件事没有做完时，他不影响后面的事情的执行。也就是说前面的代码不会影响后面代码的执行</code></pre>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" data-id="ck7pq1tho0000q0yj76bq2btr" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2020/03/13/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">我的第一篇博客文章</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/13/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
